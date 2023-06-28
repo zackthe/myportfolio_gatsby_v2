@@ -16,20 +16,28 @@ const About = () => {
       <Seo  title = 'about'/>
       <section>
     <div className="about-me">
-        <h1  className="about-me-title">WHO AM I :</h1>
-        <h2  className="about-me-subtitle">My name is Zakariae Belkasmi, I'm a self taught web designer and developer, I use my technical knowledge to create value into the world <i className="fas fa-globe"></i>.</h2>
-        <h2  className="about-me-paragraph">I like topics about learning and optimizing the human brain and body, Interested in neuroscience <i className="fas fa-brain"></i>, Also I'm a gym addict <i className="fas fa-dumbbell"></i>.</h2> 
-        <div className="links">
-           <h1 className="links-title">↓ let's have a conversation:↓</h1>
-            <div className="email flex">
-               <i className="far fa-envelope " style={{color : 'white' }}></i>
-                <p>belkasmizakariae@gmail.com</p>
-            </div>
-            <div className="twitter flex">
-               <a href="https://twitter.com/Zakariae_Bl" target="_blank"><i className="fab fa-twitter" style={{ color : "white" }}></i></a>
-                <p>Zack99</p>
-            </div>
+      <div className="about-me-wrapper">
+        
+        <div>
+        <h1  className="about-me-title">About me :</h1>
+        <p  className="about-me-subtitle">My name is Zakariae Belkasmi, I'm a self taught frontend web developer based in Meknes Morocco, I use frontend technologies like Html/css/Javascript and frameworks like react and gatsby to build projects. </p>
+        <p  className="about-me-subtitle">Currently i'm looking for an opportunity as a frontend developer where I can use my expertise and bring value. </p>
+        <p  className="about-me-subtitle">I'm always eager to learn and prosper within a productive environment that i can be proud to be part of. </p>
         </div>
+
+        <div>
+          <StaticImage 
+        className="hero-profile_photo"
+        src="C:/Users/zack/Desktop/Myportfolio-gatsby/src/assets/images/profile_photo.png"
+        alt="A dinosaur"
+        placeholder="blurred"
+        layout="fixed"
+        width={250}
+        height={250}
+                    />
+        </div>
+      
+      </div>
     </div>
     </section>
     </Layout>
