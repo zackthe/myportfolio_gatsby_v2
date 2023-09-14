@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react"
 import { Link } from "gatsby"
 
 const data = [
   {
     id: 1,
-    text: "home",
+    text: "Home",
     url: "/",
   },
   {
     id: 2,
-    text: "about",
+    text: "About",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "Projects",
     url: "/projects/",
   },
   {
@@ -24,8 +24,7 @@ const data = [
   },
 ]
 
-
-const templinks = data.map(link =>{
+const templinks = data.map(link => {
   return (
     <li key={link.id}>
       <Link to={link.url}>{link.text}</Link>
@@ -33,9 +32,9 @@ const templinks = data.map(link =>{
   )
 })
 
-export default ({styleClass}) =>{
+export default ({ styleClass }) => {
   return (
-    <ul className = {`navigation-menu-list ${styleClass ? styleClass : ''}`}>
+    <ul className={`navigation-menu-list ${styleClass ? styleClass : ""}`}>
       {templinks}
       {console.log(templinks)}
     </ul>

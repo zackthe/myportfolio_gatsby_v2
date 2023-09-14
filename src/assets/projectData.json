@@ -1,42 +1,50 @@
 [
-    {
-
-        "title" : "funny generator",
-        "description" : "Vanilla js web app",
-        "img" : "../assets/images/projects_image/funny.PNG",
-        "link" : "https://zackthe.github.io/funny-randomness/",
-        "tag" : "Jamstack"
-    
-    },
-    {
-
-        "title" : "Task manager",
-        "description" : "Task manager firebase web app",
-        "img" : "../assets/images/projects_image/task-manager.PNG",
-        "link":" https://task-manager-c07f0.web.app/",
-        "tag" : "Javascript"
-
-    },
-    {
-
-        "title" : "digency",
-        "description" : "Desgin agency landing page",
-        "img" : "../assets/images/projects_image/digency-moc.png",
-        "link" : "https://zackthe.github.io/Digency/",
-        "tag" : "landing page"
-    
-    },
-    {
-
-        "title" : "Regency",
-        "description" : "Real estate landing page",
-        "img" : "../assets/images/projects_image/regency.png",
-        "link" : "https://zackthe.github.io/real_estate/",
-        "tag" : "Html/css"
-    
-    }
-
-
- 
+  {
+    "title": "My portfolio",
+    "description": "My own website and portfolio I built using gatsby a static site generator, where I share my projects and journey",
+    "img": "../assets/images/projects_image/portfolio.png",
+    "link": "https://n2qq6r.csb.app/",
+    "github": "https://github.com/zackthe/myportfolio_gatsby_v2",
+    "tag": "ReactJs/Gatsby"
+  },
+  {
+    "title": "Spam checker",
+    "description": "Tool I built for ECM (email marketing company) for checking and removing spam words from text and manipulate it as wanted before sending emails, also a tool to extract Ips and dark mode integrated",
+    "img": "../assets/images/projects_image/spamcheker.png",
+    "link": "https://n2qq6r.csb.app/",
+    "github": "https://github.com/zackthe/spam_chekcer",
+    "tag": "Javascript/Tailwindcss"
+  },
+  {
+    "title": "funny generator",
+    "description": "Vanilla javascript website that generates wide range of movies and tv shows randomly",
+    "img": "../assets/images/projects_image/funny.PNG",
+    "link": "https://zackthe.github.io/funny-randomness/",
+    "github": "https://github.com/zackthe/funny-randomness",
+    "tag": "Jamstack"
+  },
+  {
+    "title": "Task manager",
+    "description": "Task manager website built with javascript and firebase",
+    "img": "../assets/images/projects_image/task-manager.PNG",
+    "link": " https://task-manager-c07f0.web.app/",
+    "github": "https://github.com/zackthe/Card-list-app",
+    "tag": "Jamstack"
+  },
+  {
+    "title": "digency",
+    "description": "Design agency landing page",
+    "img": "../assets/images/projects_image/digency-moc.png",
+    "link": "https://zackthe.github.io/Digency/",
+    "github": "https://github.com/zackthe/Digency",
+    "tag": "landing page"
+  },
+  {
+    "title": "Regency",
+    "description": "Real estate landing page",
+    "img": "../assets/images/projects_image/regency.png",
+    "link": "https://zackthe.github.io/real_estate/",
+    "github": "https://github.com/zackthe/real_estate",
+    "tag": "Html/css"
+  }
 ]
-    
